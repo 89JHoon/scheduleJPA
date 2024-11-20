@@ -11,7 +11,8 @@ import java.time.LocalDateTime;
 @Getter
 @MappedSuperclass
 @EntityListeners(AbstractMethodError.class)
-public class BaseEntity {
+
+public abstract class BaseEntity {
 //작성일 수정일
 
     @CreatedDate
